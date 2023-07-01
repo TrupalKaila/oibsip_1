@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Raleway:wght@100;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+.sec{
+	min-height: 100vh;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../Images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.container{
+	width: 85%;
+	margin: auto;
+}
+nav{
+	height: 80px;
+}
+nav h1{
+	float: left;
+	line-height: 80px;
+	font-size: 35px;
+	font-size: inline;
+	color: #eb7620;
+}
+nav ul{
+	float: right;
+	line-height: 80px;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 0px 5px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 7px 8px;
+}
+nav ul li a:hover{
+	background-color: yellowgreen;
+	transition: 0.5s ease;
+}
+nav ul li .active{
+	color: #eb7620;
+}
+.article{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	transform: translateY(25vh);
+}
+.article h1{
+	font-size: 36px;
+	color: white;
+	letter-spacing: 1.5px;
+	font-weight: 800;
+	margin: 25px;
+}
+.article p{
+	font-size: 18px;
+	color: #787676;
+	line-height: 50px;
+	margin-bottom: 50px;
+}
+.article .btn{
+	color: white;
+	padding: 12px 25px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #f15048;
+}
+.article .btn:hover{
+	background-color: #4399fa;
+	transition: 0.5s ease;
+}
+
+.makeus{
+	background-color: #EFE9E6;
+	background-size: cover;
+	height: 80vh;
+}
+.makeus h3{
+	font-family: 'Caveat', handwriting;
+	font-weight: 700;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 50px;
+}
+.makeus h5{
+	font-family: 'Caveat', handwriting;
+	font-weight: 400;
+	font-size: 30px;
+	padding-top: 20px;
+}
+.makeus td{
+	padding-top: 60px;
+	padding-left: 170px;
+}
+.makeus td img{
+	width: 300px;
+	height: 300px;
+	border-radius: 100px;
+}
+.adventures{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url("../Images/bg3.jpg");
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+.adventures h3{
+	font-family: 'Caveat', handwriting;
+	font-weight: 700;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 20px;
+}
+.adventures td{
+	padding-top: 40px;
+	padding-left: 40px;
+}
+.adventures td img{
+	height: 250px;
+	width: 250px;
+	border-radius: 80px;
+}
+
+.slogan{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../Images/bg4.jpg");
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slogan h2{
+	font-weight: 200	;
+	font-family: 'Ysabeau Office';
+	font-size: 48px;
+	color: whitesmoke;
+	text-align: center;
+	transform: translateY(300px);
+}
+.askUs{
+	background-color: whitesmoke;
+	height: 185vh;
+}
+.askUs h2{
+	font-family: 'Rozha One';
+	font-size: 40px;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 60px;
+}
+.askUs p{
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.info{
+	text-align: center;
+}
+input {
+	background-color: whitesmoke;
+	border-width: 1px;
+	height: 40px;
+	width: 800px;
+}
+textarea{
+	background-color: whitesmoke;
+	border-width: 1px;
+	height: 200px;
+	width: 800px;
+}
+
+.btn2{
+	color: white;
+	padding: 12px 25px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #f15048;
+}
+.btn2:hover{
+	background-color: #4399fa;
+	transition: 0.5s ease;
+}
+.last{
+	background-color: #EFE9E6;
+
+}
